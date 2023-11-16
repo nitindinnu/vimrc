@@ -71,3 +71,6 @@ set backupdir=C:\WINDOWS\Temp
 set backupskip=C:\WINDOWS\Temp\*
 set directory=C:\WINDOWS\Temp
 set writebackup
+" //// Configure custom mappings
+map <F5> :wa!<CR>
+" //// Example: Map F5 to save the file
