@@ -1,5 +1,5 @@
 # PowerShell commands
-$items = Get-ChildItem -Path . -Include "work", "*.mpf","*qverilog.log", "*.vstf","*.mti", "*.wlf" ,"*.vhd" ,"*.dbg" ,"transcript" -Recurse
+$items = Get-ChildItem -Path . -Include "work", "*.mpf","*qverilog.log", "*.vcd","*.vstf","*.mti", "*.wlf" ,"*.vhd" ,"*.dbg" ,"transcript" -Recurse
 
 $items | ForEach-Object {
     $item = $_
