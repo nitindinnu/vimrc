@@ -69,11 +69,13 @@ set wildmenu
 "/////////////
 set so=7
 " store backup, undo, and swap files in temp directory
-set backup
-set backupdir=C:\WINDOWS\Temp
-set backupskip=C:\WINDOWS\Temp\*
-set directory=C:\WINDOWS\Temp
-set writebackup
+"set backup
+"set backupdir=C:\WINDOWS\Temp
+"set backupskip=C:\WINDOWS\Temp\*
+"set directory=C:\WINDOWS\Temp
+"set writebackup
+
+set nobackup nowritebackup noswapfile
 
 
 
